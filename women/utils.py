@@ -22,6 +22,6 @@ class DataMixin:
         context['menu']= user_menu
         
         context['cats']= cats 
-        if  'cats_selected' not in context:
+        if  'cat_selected' not in context:
             context['cat_selected']=0
         return context
